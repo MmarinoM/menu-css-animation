@@ -1,0 +1,48 @@
+// @import "node_modules/normalize.css/";
+
+body{
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    
+}
+.menu{
+    color: white;
+    // width: 250px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+}
+li{
+    width: 100%;
+    background-color: orange;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+a{
+    width: 30%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    
+    
+img{
+    width: 80%;
+    display: block;
+    // width: 50px;
+    // height: 50px;
+    
+    
+
+}    
+    
+}
+
+p{
+    width: 70%;
+    
+}
