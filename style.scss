@@ -1,46 +1,94 @@
-// @import "node_modules/normalize.css/";
+@import "node_modules/normalize.css";
 
 
-$textColor: white;
+$textColor: #6d6875;
+$backgroundLogo: #6d597a;
+$backgroundFirst: #b5838d;
+$backgroundText: white;
+$background: #e56b6f;
 
+
+
+body{
+    background-color: $background;
+}
 
 .menu{
     color: $textColor;
     // width: 250px;
-    li{
-        width: 100%;
-        background-color: orange;
+    ul{
+        list-style: none;
         display: flex;
         flex-wrap: wrap;
+        width: 250px;
+       
+        li{
+                width: 100%;
+                
+                display: flex;
+                flex-wrap: wrap;
+                p{
+                    width: 70%;
+                    height: 100%;
+                    margin: 0;
+                    font-size: 25px;;
+                    text-align: center;
+                    vertical-align: middle;
+                    background-color: $backgroundText;
+                    display: none;
+                    
+                    
+                    
+                }
+                a{
+                    
+                    width: 30%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 80px;
+                    img{
+                        width: 80%;
+                        display: block;
+                    
+                        
+                    
+                    }   
+                    &:hover + p{
+                        display: inline;
+              
+                        
+                        
+                        
+                    }
+                }
+                .first{
+                    background-color: $backgroundFirst;
+                    transition: 1.5s;
+                    &:hover{
+                        background-color: white;
 
-        a{
-            background-color: white;
-            width: 30%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 80px;
-        }
-    }
-}
-ul{
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    width: 250px;
+              
+
+              
+                    }
+                }
+                .logo{
+                    background-color: $backgroundLogo;
+                    transition: 1.5s;
+                    &:hover{
+                        background-color: white;
+                        
+                    }
+                }
+     
+            }
+    }     
 }
 
-img{
-    width: 80%;
-    display: block;
+
 
     
 
-}    
-    
-p{
-    width: 70%;
-    
-}
 
 
