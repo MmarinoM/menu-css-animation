@@ -1,16 +1,19 @@
 @import "node_modules/normalize.css";
 body {
   background-color: #e56b6f;
+  margin: 0;
 }
 
 .menu {
   color: #6d6875;
+  margin: 0;
 }
 .menu ul {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   width: 250px;
+  padding-left: 0;
 }
 .menu ul li {
   width: 100%;
@@ -27,7 +30,7 @@ body {
   background-color: white;
   display: none;
   transform: translateX(-100%);
-  transition: 2s;
+  transition: all 2s;
 }
 .menu ul li a {
   width: 30%;
@@ -41,8 +44,9 @@ body {
   display: block;
 }
 .menu ul li a:hover + p {
-  display: block;
+  display: inline-block;
   transform: translateX(0%);
+  opacity: 1;
 }
 .menu ul li .first {
   background-color: #b5838d;
