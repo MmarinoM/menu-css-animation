@@ -26,6 +26,8 @@ body {
   vertical-align: middle;
   background-color: white;
   display: none;
+  transform: translateX(-100%);
+  transition: 2s;
 }
 .menu ul li a {
   width: 30%;
@@ -39,7 +41,8 @@ body {
   display: block;
 }
 .menu ul li a:hover + p {
-  display: inline;
+  display: block;
+  transform: translateX(0%);
 }
 .menu ul li .first {
   background-color: #b5838d;

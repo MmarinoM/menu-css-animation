@@ -36,8 +36,8 @@ body{
                     vertical-align: middle;
                     background-color: $backgroundText;
                     display: none;
-                    
-                    
+                    transform: translateX(-100%);
+                    transition: 2s;
                     
                 }
                 a{
@@ -55,7 +55,9 @@ body{
                     
                     }   
                     &:hover + p{
-                        display: inline;
+                        display: block;
+                        transform: translateX(0%);
+                        
               
                         
                         
