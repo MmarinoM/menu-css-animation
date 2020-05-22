@@ -38,9 +38,9 @@ body{
                     text-align: center;
                     vertical-align: middle;
                     background-color: $backgroundText;
-                    display: none;
-                    transform: translateX(-100%);
-                    transition: all 2s;
+                    transform: translateX(-200%);
+                    opacity: 0;
+                    
 
                     
                 }
@@ -61,7 +61,10 @@ body{
                     &:hover + p{
                         display: inline-block;
                         transform: translateX(0%);
+                        transition: 1s ease-in-out;
                         opacity: 1;
+                        
+                        
               
                         
                         

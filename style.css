@@ -28,9 +28,8 @@ body {
   text-align: center;
   vertical-align: middle;
   background-color: white;
-  display: none;
-  transform: translateX(-100%);
-  transition: all 2s;
+  transform: translateX(-200%);
+  opacity: 0;
 }
 .menu ul li a {
   width: 30%;
@@ -46,6 +45,7 @@ body {
 .menu ul li a:hover + p {
   display: inline-block;
   transform: translateX(0%);
+  transition: 1s ease-in-out;
   opacity: 1;
 }
 .menu ul li .first {
