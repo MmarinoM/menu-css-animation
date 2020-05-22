@@ -15,6 +15,7 @@ body {
   flex-wrap: wrap;
   width: 250px;
   padding-left: 0;
+  margin-top: 0;
 }
 .menu ul li {
   width: 100%;
