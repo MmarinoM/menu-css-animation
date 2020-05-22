@@ -1,17 +1,19 @@
 @import "node_modules/normalize.css";
 
 
-$textColor: #6d6875;
+$textColor: #b5838d;
 $backgroundLogo: #6d597a;
 $backgroundFirst: #b5838d;
 $backgroundText: white;
 $background: #e56b6f;
-
+$font: 'Pacifico', cursive;
 
 
 body{
     background-color: $background;
     margin: 0;
+    font-family: $font;
+    
 }
 
 .menu{
@@ -34,7 +36,7 @@ body{
                     width: 70%;
                     height: 100%;
                     margin: 0;
-                    font-size: 25px;;
+                    font-size: 35px;;
                     text-align: center;
                     vertical-align: middle;
                     background-color: $backgroundText;
